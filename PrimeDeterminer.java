@@ -7,6 +7,7 @@ public class PrimeDeterminer {
     private static boolean factorable;
 
     public static void main(String[] args){
+        System.out.println("To cancel long-running primes, press Ctrl + C");
         System.out.println("Please input your number:");
         Scanner sc = new Scanner(System.in);
         testNumber = sc.nextDouble();
