@@ -1,4 +1,4 @@
-
+print("Press Ctrl + C to end any long-running primes")
 testNumber = int(input("Please give the desired number:"))
 divisor = 2
 factorable = False
