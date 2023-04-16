@@ -189,7 +189,8 @@ class Matrix(object):
         for row in self.__values:
             print(row)
 
-    #Computes the reduced row echelon form of the current matrix. THE BIG GOAL
+#ALGORITHMS
+    #Computes the reduced row echelon form of the current matrix.
     def findMatrixRREF(self):
         #iterates over every single row in the matrix looking for a pivot, and clearing the column that pivot is in.
         for rowOuter in range(self.__rows):
